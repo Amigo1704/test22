@@ -25,7 +25,7 @@ pipeline {
             steps {
                 echo " ============== start building image =================="
                 dir ('docker') {
-                	sh 'docker build -t semaev/toolboxcred:latest . '
+                	sh 'docker build -t amigo1704/repo2pub:testjenk . '
                 }
             }
         }
